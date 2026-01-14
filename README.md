@@ -172,31 +172,6 @@ python simulation_gui.py
 # 4. Review the results table and performance metrics
 ```
 
-## 📁 Project Structure
-
-```
-Modeling&Simulation Project/
-│
-├── simulation_gui.py                    # Main GUI application
-│
-├── Double Server Simulation/
-│   ├── debug.py                         # Debug/testing script
-│   └── Double-Server-Queueing System.docx
-│
-├── Single Server Simulation/
-│   ├── SingleServerSim.py               # Standalone single server sim
-│   └── Single-Server-Queueing System.docx
-│
-├── Event Scheduling/
-│   └── schedule.py                      # Standalone event scheduling sim
-│
-├── M-N Inventory Simulation/
-│   └── mnsim.py                         # Standalone inventory sim
-│
-├── Modeling Simulation Group Project Overview.docx
-└── README.md                            # This file
-```
-
 ## 🔧 Technical Details
 
 ### Architecture
