@@ -130,9 +130,14 @@ git clone https://github.com/yourusername/modeling-simulation-project.git
 cd modeling-simulation-project
 ```
 
+2. **Install required packages**
+```bash
+pip install -r requirements.txt
+```
+
 > **Note**: This project uses only Python standard library modules (tkinter, random), so no additional packages are required.
 
-2. **Run the application**
+3. **Run the application**
 ```bash
 python simulation_gui.py
 ```
@@ -165,6 +170,31 @@ python simulation_gui.py
 # 2. Enter number of applicants (e.g., 10)
 # 3. Click "Run Simulation"
 # 4. Review the results table and performance metrics
+```
+
+## 📁 Project Structure
+
+```
+Modeling&Simulation Project/
+│
+├── simulation_gui.py                    # Main GUI application
+│
+├── Double Server Simulation/
+│   ├── debug.py                         # Debug/testing script
+│   └── Double-Server-Queueing System.docx
+│
+├── Single Server Simulation/
+│   ├── SingleServerSim.py               # Standalone single server sim
+│   └── Single-Server-Queueing System.docx
+│
+├── Event Scheduling/
+│   └── schedule.py                      # Standalone event scheduling sim
+│
+├── M-N Inventory Simulation/
+│   └── mnsim.py                         # Standalone inventory sim
+│
+├── Modeling Simulation Group Project Overview.docx
+└── README.md                            # This file
 ```
 
 ## 🔧 Technical Details
@@ -204,13 +234,11 @@ The simulations use the **inverse transform method** for random variate generati
 
 ## 📊 Screenshots
 
-```markdown
 ![Double Server Simulation](screenshots/double_server.png)
 ![Single Server Simulation](screenshots/single_server.png)
 ![Event Scheduling](screenshots/event_scheduling.png)
 ![M-N Inventory](screenshots/M-N_inventory.png)
 ![Newspaper Simulation](screenshots/newspaper_simulation.png)
-```
 
 ## 📦 Requirements
 
@@ -222,13 +250,7 @@ The simulations use the **inverse transform method** for random variate generati
 - `random` - Random number generation
 - `ttk` - Themed Tkinter widgets
 
-### Creating requirements.txt
-If you want to create a virtual environment, you can use:
 
-```bash
-# No additional packages required beyond Python standard library
-# tkinter comes pre-installed with Python
-```
 
 ## 🎓 Educational Value
 
@@ -266,7 +288,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Author
 
-**Mohannad Abdallah** 
+**Mohannad Abdallah**
 
 ## 🙏 Acknowledgments
 
@@ -279,7 +301,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions, suggestions, or feedback:
 - GitHub: [@mohannadx101](https://github.com/mohannadx101)
 - Email: mohannadx101@gmail.com
-
----
-
-**Note**: This project was developed as part of a Modeling & Simulation course to demonstrate understanding of discrete event simulation concepts and implementation techniques.
